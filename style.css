@@ -2,79 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
-section{
-    height: 100vh;
-    background-color: rgb(231, 148, 70);
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background-color: #f3f2ef;
 }
 .signup{
-    height: 35rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(157, 209, 243);
-    width: 25rem;
-    border-radius: 15px;
+    background-color: #fff;
+    padding: 3rem;
+    width: 480px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.signup h2{
+    margin-bottom: 1rem;
+    color: #333;
 }
-label{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+.registration-form label{
+    float: left;
 }
-input[type="text"], input[type="date"], select {
+.registration-form input, .registration-form select{
     width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
 }
-.second-row{
+.form-group{
+    margin-bottom: 7px;
+}
+.row{
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    gap: 1rem;
 }
 .gender{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-.option{
+.gender-options{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0.5rem;
 }
-.fifth-row{
+.gender-options label{
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    align-items: center;
 }
 .button-container{
-    display: flex;
-    justify-content: center; 
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
-input[type="button"]{
-    background-color: #ff3131; 
-    color: white; 
-    padding: 10px 160px; 
-    border: none; 
-    border-radius: 5px;
-    cursor: pointer; 
-    font-size: 16px; 
-    transition: background-color 0.3s, transform 0.2s; 
+.button-container button{
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073b1;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
-input[type="button"]:hover{
-    background-color: #45a049; 
+.button-container button:hover{
+    background-color: #005580;
 }
-input[type="button"]:focus{
-    outline: none; 
-    box-shadow: 0 0 5px #4CAF50;
-}
-input[type="button"]:active{
-    transform: scale(0.98);
-}
-
+  
