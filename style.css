@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-color: rgb(231, 148, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 209, 243);
+    width: 25rem;
+    border-radius: 15px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.gender{
+    margin-bottom: 5px;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.fifth-row{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.button-container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+input[type="button"]{
+    background-color: #ff3131; 
+    color: white; 
+    padding: 10px 160px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+input[type="button"]:hover{
+    background-color: #45a049; 
+}
+input[type="button"]:focus{
+    outline: none; 
+    box-shadow: 0 0 5px #4CAF50;
+}
+input[type="button"]:active{
+    transform: scale(0.98);
+}
+

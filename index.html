@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section>
+
+    <div class="signup">
+        <h2>Registration Form</h2><br>
+
+        <form action="/action_page.php">
+
+          <div class="first-row">
+            <div class="fullname">
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter full name"><br><br>
+            </div>
+
+            <div class="email">
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email" placeholder="Enter email address"><br><br>
+            </div>
+          </div>
+
+          <div class="second-row">
+            <div class="number">
+                <label for="number">Mobile Number:</label><br>
+                <input type="text" id="number" name="number" placeholder="Enter mobile number"><br><br>
+            </div>
+
+            <div class="date">
+                <label for="birthdate">Birth Date:</label><br>
+                <input type="date" id="birthdate" name="birthdate"><br><br>
+            </div>
+          </div>
+
+          <div class="third-row">
+            <div class="gender">
+                <label for="gender">Gender:</label><br>
+            </div>
+            <div class="option">
+                <div>
+                    <input type="radio" id="gender1" name="gender">
+                    <label for="gender1">Male</label><br><br>
+                </div>
+      
+                <div>
+                    <input type="radio" id="gender2" name="gender">
+                    <label for="gender2">Female</label><br><br>
+                </div>
+         
+                <div>
+                    <input type="radio" id="gender3" name="gender">
+                    <label for="gender3">Prefer not to say</label><br><br>
+                </div>
+            </div>
+          </div>
+
+          <div class="fourth-row">
+            <div class="address">
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="Enter address"><br>
+            </div>
+
+          </div>
+
+          <div class="fifth-row">
+            <select name="country" id="country">
+                <option value="" disabled selected hidden>Country</option>
+                <option value="philippines">Philippines</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="singapore">Singapore</option>
+                <option value="thailand">Thailand</option>
+              </select>
+              <label for="pcode"></label><br>
+              <input type="text" id="pcode" name="pcode" placeholder="Enter postal code"><br><br>
+          </div>
+
+          <div class="button-container">
+            <input type="button" value="Submit">
+          </div>
+        
+        </form> 
+
+    </div>
+    
+</section>
+
+
+
+
+</body>
+</html>
