@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    font-size: 15px;
 }
 .container{
     display: flex;
@@ -13,14 +14,15 @@
 }
 .signup{
     background-color: #fff;
-    padding: 3rem;
-    width: 480px;
+    padding: 2.5rem;
+    width: 500px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 .signup h2{
     margin-bottom: 1rem;
+    font-size: 20px;
     color: #333;
 }
 .registration-form label{
@@ -40,20 +42,25 @@
     display: flex;
     gap: 1rem;
 }
+.row .form-group {
+    flex: 1;
+}
 .gender{
     margin-bottom: 10px;
 }
+.gender label{
+    margin-bottom: 3px;
+}
 .gender-options{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin-top: 0.5rem;
 }
 .gender-options label{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 5px;
+    white-space: nowrap;
 }
 .button-container{
     margin-top: 1.5rem;
